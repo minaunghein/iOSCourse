@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A322" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="segment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ouf-pE-hSB">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <segmentedControl clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bFU-F5-Rk3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="hHE-YS-Xtu"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="0.46932051009999998" blue="0.0097188980970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="selectSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="xs1-p9-p8g"/>
+                                </connections>
+                            </segmentedControl>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.80000000000000004" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sPp-sB-PVx">
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="changeValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="MbC-VI-t5g"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Ouf-pE-hSB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IOg-R7-KFO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sPp-sB-PVx" secondAttribute="bottom" constant="8" id="L1g-KD-1m5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ouf-pE-hSB" secondAttribute="bottom" id="Pei-Lq-771"/>
+                            <constraint firstAttribute="trailing" secondItem="Ouf-pE-hSB" secondAttribute="trailing" id="QPW-fB-bIo"/>
+                            <constraint firstItem="Ouf-pE-hSB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Uf6-oM-0yn"/>
+                            <constraint firstItem="bFU-F5-Rk3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bPz-gv-3jG"/>
+                            <constraint firstItem="bFU-F5-Rk3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dPf-OX-gWu"/>
+                            <constraint firstItem="bFU-F5-Rk3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jfo-LB-9fr"/>
+                            <constraint firstItem="sPp-sB-PVx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kTx-Rk-MYa"/>
+                            <constraint firstItem="sPp-sB-PVx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zTV-jG-AbW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Ouf-pE-hSB" id="SqA-yx-Mmi"/>
+                        <outlet property="segCtrl" destination="bFU-F5-Rk3" id="MV9-ZT-wre"/>
+                        <outlet property="slider" destination="sPp-sB-PVx" id="MYD-tl-Y6I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.8000000000000007" y="-105.69715142428787"/>
+        </scene>
+    </scenes>
+</document>
