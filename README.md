@@ -30,10 +30,10 @@
     <div><h6>0101_UID_LBL_Helloworld</h6><img width="160" height="285" style="float:left;" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png"   >
      
    <h6>0102_UID_IMG_Helloworld</h6> 
-   <img width="160" height="285" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0102_UID_IMG_Helloworld/preview.png"  >
+   <img width="160" height="285"  style="float:left;" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0102_UID_IMG_Helloworld/preview.png"  >
    
   <h6>0103_UID_BTN_NuclearLaunch</h6>
-    <img width="160" height="285" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0103_UID_BTN_NuclearLaunch/preview.png"  >
+    <img width="160" height="285"  style="float:left;" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0103_UID_BTN_NuclearLaunch/preview.png"  >
  
 </div>
  
