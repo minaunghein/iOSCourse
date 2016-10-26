@@ -22,6 +22,10 @@ iOS Course
 
 
 <h3>
+  .preview_img
+{
+    float: left;
+}
 <div class="preview_img">
     <li>
     <div>
@@ -41,8 +45,5 @@ iOS Course
 </div>
    </h3>
 
-  .preview_img
-{
-    float: left;
-}
+
 
