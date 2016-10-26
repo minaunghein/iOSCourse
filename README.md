@@ -22,25 +22,19 @@ iOS Course
 
 
 <h3>
-  .preview_img
-{
-    float: left;
-}
+
 <div  float="left" >
     <li>
     <div>
     <h4>0101 HelloWorld</h4>
     <img width="120" height="180" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png" alt="Hello World">
     
-</div>
-<div>
+ 
     <img width="120" height="180" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png" alt="Hello World">
     
-</div>
-<div>
+ 
     <img width="120" height="180" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png" alt="Hello World">
-    
-</div>
+ 
 </li>
 </div>
    </h3>
