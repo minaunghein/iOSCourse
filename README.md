@@ -26,7 +26,7 @@ iOS Course
 {
     float: left;
 }
-<div class="preview_img">
+<div  float="left" >
     <li>
     <div>
     <h4>0101 HelloWorld</h4>
