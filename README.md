@@ -22,11 +22,15 @@ iOS Course
 
 
 <h3>
-   <li>
-   <a><https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png> </a>
-   </li>
-</h3>
+<div class="floated_img">
+    <img src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png" alt="Hello World">
+    <p>0101_UID_LBL_Helloworld</p>
+</div>
+<div class="floated_img">
+    <img src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png" alt="Hello World">
+    <p>0101_UID_LBL_Helloworld</p>
+</div>
+   </h3>
 
-#0101_UID_LBL_HelloworldHelloWorld
   
 
