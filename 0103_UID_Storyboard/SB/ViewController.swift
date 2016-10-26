@@ -23,16 +23,7 @@ class ViewController: UIViewController {
         
     }
     
-    
-    @IBAction func load(_ sender: AnyObject) {
-        
-        
-        let mailActivity = "Test Mail"
-        
-        let image  = UIImage(named:"logo.png")
-        let activityViewController = UIActivityViewController(activityItems: [ image!, mailActivity ], applicationActivities: nil)
-        self.navigationController?.present(activityViewController, animated: true, completion: nil)
-    }
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
