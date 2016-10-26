@@ -41,5 +41,8 @@ iOS Course
 </div>
    </h3>
 
-  
+  .preview_img
+{
+    float: left;
+}
 
