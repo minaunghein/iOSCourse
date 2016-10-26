@@ -2,7 +2,7 @@ iOS Course
 
 #Term 
 
-   BAS : Background As A Service 
+   **BAS : Background As A Service 
    CCT : Conceptual Matter on iOS
    MAP : Mapping
    MUT : Multi Threading
