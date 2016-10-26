@@ -24,5 +24,5 @@ iOS Course
 
 
 #0101_UID_LBL_HelloworldHelloWorld
-   ![Hello World] (https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/Simulator%20Screen%20Shot%2026%20Oct%202016%2C%208.10.04%20AM.png)
+   ![Hello World] (https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png)
 
