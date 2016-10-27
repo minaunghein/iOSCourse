@@ -27,11 +27,10 @@
     <li>
     
     <h4>Chapter 1 iOS  Development Fundamental </h4>
-    <figure>
-     <figcaption>0101 Helloworld.</figcaption>
-    <img width="160" height="285" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png"   >
     
-     </figure>
+    <img width="120" height="200" src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0101_UID_LBL_Helloworld/preview.png"   >
+    
+     
    <img width="160" height="285"    src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0102_UID_IMG_Helloworld/preview.png"  >
   
     <img width="160" height="285"   src="https://raw.githubusercontent.com/minaunghein/iOSCourse/master/0103_UID_BTN_NuclearLaunch/preview.png"  >
