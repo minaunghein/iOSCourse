@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB05F5F1DC5791500B54396 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAB05F5E1DC5791500B54396 /* Notes.txt */; };
 		EAD94BEB1DBCABB700D726C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD94BEA1DBCABB700D726C3 /* AppDelegate.swift */; };
 		EAD94BED1DBCABB700D726C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD94BEC1DBCABB700D726C3 /* ViewController.swift */; };
 		EAD94BF01DBCABB700D726C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD94BEE1DBCABB700D726C3 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAB05F5E1DC5791500B54396 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 		EAD94BE71DBCABB700D726C3 /* lifecircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifecircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD94BEA1DBCABB700D726C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD94BEC1DBCABB700D726C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				EAD94BEA1DBCABB700D726C3 /* AppDelegate.swift */,
 				EAD94BEC1DBCABB700D726C3 /* ViewController.swift */,
+				EAB05F5E1DC5791500B54396 /* Notes.txt */,
 				EAD94BEE1DBCABB700D726C3 /* Main.storyboard */,
 				EAD94BF11DBCABB700D726C3 /* Assets.xcassets */,
 				EAD94BF31DBCABB700D726C3 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB05F5F1DC5791500B54396 /* Notes.txt in Resources */,
 				EAD94BF51DBCABB700D726C3 /* LaunchScreen.storyboard in Resources */,
 				EAD94BF21DBCABB700D726C3 /* Assets.xcassets in Resources */,
 				EAD94BF01DBCABB700D726C3 /* Main.storyboard in Resources */,
@@ -302,6 +306,7 @@
 				EAD94BFB1DBCABB700D726C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
