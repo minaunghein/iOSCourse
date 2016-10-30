@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A322" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="button" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Minuteman_III_Launch_Control.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="kQR-Ez-Mbf"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUu-rc-fwh">
+                                <color key="backgroundColor" red="1" green="0.014138444369999999" blue="0.026379620039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="mBo-tS-eAE"/>
+                                    <constraint firstAttribute="height" constant="100" id="p9g-rT-K4e"/>
+                                </constraints>
+                                <state key="normal" title="Launch">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.014138444373146153" blue="0.0263796200364671" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vx0-wD-VNq">
+                                <frame key="frameInset" minX="30" minY="559" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="D4p-cD-egV"/>
+                                    <constraint firstAttribute="width" constant="30" id="Uoi-d7-h01"/>
+                                </constraints>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xem-Us-25w">
+                                <frame key="frameInset" minX="172" minY="559" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="3vJ-Ke-QqL"/>
+                                    <constraint firstAttribute="height" constant="30" id="U3t-NV-2cX"/>
+                                </constraints>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQf-WR-8cX">
+                                <frame key="frameInset" minX="261" minY="559" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="PGK-AT-Ics"/>
+                                    <constraint firstAttribute="height" constant="30" id="d7b-0m-Wer"/>
+                                </constraints>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4J-du-Lg5">
+                                <frame key="frameInset" minX="329" minY="559" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="ESc-2P-jSB"/>
+                                    <constraint firstAttribute="height" constant="30" id="tre-T8-h90"/>
+                                </constraints>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OK-qv-X2h">
+                                <frame key="frameInset" minX="92" minY="559" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="nMA-9p-0GM"/>
+                                    <constraint firstAttribute="height" constant="30" id="qcq-J7-BsN"/>
+                                </constraints>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z4J-du-Lg5" secondAttribute="bottom" constant="20" id="1h3-WO-U9M"/>
+                            <constraint firstItem="0OK-qv-X2h" firstAttribute="leading" secondItem="vx0-wD-VNq" secondAttribute="trailing" constant="20" id="4xl-pd-UMz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0OK-qv-X2h" secondAttribute="bottom" constant="20" id="7Ka-rC-0SH"/>
+                            <constraint firstItem="kQR-Ez-Mbf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Ww-aj-GuR"/>
+                            <constraint firstItem="FQf-WR-8cX" firstAttribute="leading" secondItem="Xem-Us-25w" secondAttribute="trailing" constant="20" id="AMn-Ed-tHd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kQR-Ez-Mbf" secondAttribute="bottom" id="EPc-sl-ki8"/>
+                            <constraint firstItem="Z4J-du-Lg5" firstAttribute="leading" secondItem="FQf-WR-8cX" secondAttribute="trailing" constant="20" id="JTX-br-E3n"/>
+                            <constraint firstAttribute="trailing" secondItem="kQR-Ez-Mbf" secondAttribute="trailing" id="NV5-gg-Yld"/>
+                            <constraint firstItem="TUu-rc-fwh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z9Q-Pn-y1I"/>
+                            <constraint firstItem="kQR-Ez-Mbf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZsD-WN-Hlc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xem-Us-25w" secondAttribute="bottom" constant="20" id="hY0-0D-Biw"/>
+                            <constraint firstItem="Xem-Us-25w" firstAttribute="leading" secondItem="0OK-qv-X2h" secondAttribute="trailing" constant="20" id="kAO-8j-fG5"/>
+                            <constraint firstItem="TUu-rc-fwh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="toB-GP-Gw4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vx0-wD-VNq" secondAttribute="bottom" constant="20" id="u0q-bz-u5y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FQf-WR-8cX" secondAttribute="bottom" constant="20" id="vSG-Fo-AUl"/>
+                            <constraint firstItem="Xem-Us-25w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yw1-eI-DXe"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Minuteman_III_Launch_Control.JPG" width="3700" height="2991"/>
+    </resources>
+</document>
