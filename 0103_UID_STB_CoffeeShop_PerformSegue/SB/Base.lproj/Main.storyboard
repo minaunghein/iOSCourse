@@ -35,9 +35,6 @@
                                         <integer key="value" value="7"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="TLM-OE-D7l" kind="show" id="ejH-MY-quz"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee.png" translatesAutoresizingMaskIntoConstraints="NO" id="iOb-ur-Y4r">
                                 <constraints>
@@ -94,9 +91,6 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="bC2-Vv-pU1"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mc1.png" translatesAutoresizingMaskIntoConstraints="NO" id="zko-nb-XCP">
                                 <frame key="frameInset" minX="282" minY="286" width="93" height="130"/>
@@ -122,9 +116,6 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="1oc-4F-YBn" kind="presentation" id="Deo-C1-cMr"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5N-yu-Gx8">
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -143,9 +134,6 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="1PX-Pr-Nen" kind="show" id="IkR-Zu-gOw"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cup2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wBO-lg-ruw">
                                 <frame key="frameInset" minY="346" width="61" height="70"/>
@@ -215,9 +203,6 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="TLM-OE-D7l" kind="show" id="Q0V-bs-Ubs"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hus-VF-3VV">
                                 <frame key="frameInset" minX="41" minY="119" width="89" height="21"/>
@@ -255,9 +240,6 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="TLM-OE-D7l" kind="show" id="LLG-Xg-d9u"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hV7-U1-1m2">
                                 <frame key="frameInset" minX="36" minY="124" width="43" height="21"/>
@@ -285,7 +267,4 @@
         <image name="cup2.png" width="56" height="76"/>
         <image name="mc1.png" width="80" height="76"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="LLG-Xg-d9u"/>
-    </inferredMetricsTieBreakers>
 </document>
