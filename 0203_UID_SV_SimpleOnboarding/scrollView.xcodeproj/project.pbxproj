@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA329121DC3FF4D00455623 /* cuteface2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA329111DC3FF4D00455623 /* cuteface2.png */; };
+		EAA329141DC3FF5700455623 /* cuteface6.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA329131DC3FF5700455623 /* cuteface6.png */; };
+		EAA329171DC3FF6000455623 /* cuteface1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA329151DC3FF6000455623 /* cuteface1.png */; };
+		EAA329181DC3FF6000455623 /* cuteface3.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA329161DC3FF6000455623 /* cuteface3.png */; };
+		EAA3291B1DC3FF6900455623 /* cuteface4.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA329191DC3FF6900455623 /* cuteface4.png */; };
+		EAA3291C1DC3FF6900455623 /* cuteface5.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA3291A1DC3FF6900455623 /* cuteface5.png */; };
 		EAD94C091DBCAF9800D726C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD94C081DBCAF9800D726C3 /* AppDelegate.swift */; };
 		EAD94C0B1DBCAF9800D726C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD94C0A1DBCAF9800D726C3 /* ViewController.swift */; };
 		EAD94C0E1DBCAF9800D726C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD94C0C1DBCAF9800D726C3 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAA329111DC3FF4D00455623 /* cuteface2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface2.png; sourceTree = "<group>"; };
+		EAA329131DC3FF5700455623 /* cuteface6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface6.png; sourceTree = "<group>"; };
+		EAA329151DC3FF6000455623 /* cuteface1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface1.png; sourceTree = "<group>"; };
+		EAA329161DC3FF6000455623 /* cuteface3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface3.png; sourceTree = "<group>"; };
+		EAA329191DC3FF6900455623 /* cuteface4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface4.png; sourceTree = "<group>"; };
+		EAA3291A1DC3FF6900455623 /* cuteface5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuteface5.png; sourceTree = "<group>"; };
 		EAD94C051DBCAF9800D726C3 /* scrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD94C081DBCAF9800D726C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD94C0A1DBCAF9800D726C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,12 @@
 			children = (
 				EAD94C081DBCAF9800D726C3 /* AppDelegate.swift */,
 				EAD94C0A1DBCAF9800D726C3 /* ViewController.swift */,
+				EAA329111DC3FF4D00455623 /* cuteface2.png */,
+				EAA329131DC3FF5700455623 /* cuteface6.png */,
+				EAA329151DC3FF6000455623 /* cuteface1.png */,
+				EAA329191DC3FF6900455623 /* cuteface4.png */,
+				EAA3291A1DC3FF6900455623 /* cuteface5.png */,
+				EAA329161DC3FF6000455623 /* cuteface3.png */,
 				EAD94C0C1DBCAF9800D726C3 /* Main.storyboard */,
 				EAD94C0F1DBCAF9800D726C3 /* Assets.xcassets */,
 				EAD94C111DBCAF9800D726C3 /* LaunchScreen.storyboard */,
@@ -125,8 +143,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD94C131DBCAF9800D726C3 /* LaunchScreen.storyboard in Resources */,
+				EAA329141DC3FF5700455623 /* cuteface6.png in Resources */,
 				EAD94C101DBCAF9800D726C3 /* Assets.xcassets in Resources */,
+				EAA329171DC3FF6000455623 /* cuteface1.png in Resources */,
+				EAA3291B1DC3FF6900455623 /* cuteface4.png in Resources */,
+				EAA329121DC3FF4D00455623 /* cuteface2.png in Resources */,
+				EAA3291C1DC3FF6900455623 /* cuteface5.png in Resources */,
 				EAD94C0E1DBCAF9800D726C3 /* Main.storyboard in Resources */,
+				EAA329181DC3FF6000455623 /* cuteface3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +326,7 @@
 				EAD94C191DBCAF9800D726C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

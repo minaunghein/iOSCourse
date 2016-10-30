@@ -3,7 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,29 +16,53 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="2375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SuK-kk-Zad">
-                                <frame key="frameInset" minX="16" minY="20" width="343" height="627"/>
+                                <frame key="frameInset" width="375" height="653"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OmW-aD-bzg">
-                                        <rect key="frame" x="51" y="42" width="240" height="1175"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.20441993180000001" blue="0.20145025529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3S6-uS-lNF">
+                                        <rect key="frame" x="0.0" y="0.0" width="367" height="667"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cuteface1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-bC-dPV">
+                                                <frame key="frameInset" width="375" height="667"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Scp-bC-dPV" secondAttribute="height" multiplier="375:667" id="qjv-e3-JS6"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cuteface2.png" translatesAutoresizingMaskIntoConstraints="NO" id="MEm-EC-Tdq">
+                                                <frame key="frameInset" minX="699" width="375" height="667"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Scp-bC-dPV" secondAttribute="bottom" id="UB2-lw-mXp"/>
+                                            <constraint firstItem="Scp-bC-dPV" firstAttribute="leading" secondItem="3S6-uS-lNF" secondAttribute="leading" id="b4m-w2-BIl"/>
+                                            <constraint firstItem="Scp-bC-dPV" firstAttribute="top" secondItem="3S6-uS-lNF" secondAttribute="top" id="pe2-mc-9H9"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.39934747240000001" green="0.69408203130000001" blue="0.64231100350000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3S6-uS-lNF" secondAttribute="bottom" id="4aE-UJ-Swc"/>
+                                    <constraint firstAttribute="trailing" secondItem="3S6-uS-lNF" secondAttribute="trailing" id="YzU-8k-IO0"/>
+                                    <constraint firstItem="3S6-uS-lNF" firstAttribute="leading" secondItem="SuK-kk-Zad" secondAttribute="leading" id="dKT-Hw-4gW"/>
+                                    <constraint firstItem="3S6-uS-lNF" firstAttribute="top" secondItem="SuK-kk-Zad" secondAttribute="top" id="nds-Qs-lYf"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="SuK-kk-Zad" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="DPf-xA-7QM"/>
-                            <constraint firstItem="SuK-kk-Zad" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="HW6-kW-FRZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SuK-kk-Zad" secondAttribute="bottom" constant="20" id="uBf-tK-jXk"/>
-                            <constraint firstItem="SuK-kk-Zad" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yNq-rm-oTr"/>
+                            <constraint firstAttribute="trailing" secondItem="SuK-kk-Zad" secondAttribute="trailing" id="48H-nu-hCY"/>
+                            <constraint firstItem="SuK-kk-Zad" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WCz-3F-KNR"/>
+                            <constraint firstItem="SuK-kk-Zad" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qUR-ix-gzl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SuK-kk-Zad" secondAttribute="bottom" id="rvM-V7-R6d"/>
                         </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="2375" height="667"/>
                     <connections>
                         <outlet property="sv" destination="SuK-kk-Zad" id="Jp0-Ts-wui"/>
                     </connections>
@@ -48,4 +72,8 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cuteface1.png" width="252" height="409"/>
+        <image name="cuteface2.png" width="309" height="408"/>
+    </resources>
 </document>

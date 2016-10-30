@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        sv.contentSize = CGSize(width: 1000, height: 1000)
+        
     }
 
     override func didReceiveMemoryWarning() {
