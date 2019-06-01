@@ -1,6 +1,0 @@
-framework module Pods_macaw {
-  umbrella header "Pods-macaw-umbrella.h"
-
-  export *
-  module * { export * }
-}
